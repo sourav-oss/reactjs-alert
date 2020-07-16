@@ -5,7 +5,7 @@ export default class ReactJsAlert extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      status: this.props.status,
+      status: this.props.status ? this.props.status : false,
     };
   }
 
