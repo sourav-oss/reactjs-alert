@@ -5,7 +5,7 @@ To get started, try installing the reactjs-alert:
 
 - `npm install --save reactjs-alert`
 
-## How to use
+## Example screenshot
 ![alt demo](./demo.png)
 
 ## How to use
