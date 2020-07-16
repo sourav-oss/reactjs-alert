@@ -3,7 +3,7 @@
 A simple react alert for your website.
 To get started, try installing the reactjs-alert: 
 
-`npm install --save reactjs-alert`
+- `npm install --save reactjs-alert`
 
 ## How to use
 
@@ -13,9 +13,7 @@ To add this npm to your project run:
 
 - `npm install --save reactjs-alert`
 
-Import it to your specific project file:
-
-- `import ReactJsAlert from "reactjs-alert"`.
+Import it to your specific project file: `import ReactJsAlert from "reactjs-alert"`.
 
 ```
 import ReactJsAlert from "reactjs-alert"
@@ -35,7 +33,7 @@ Finally, add the `ReactJsAlert` component within render method:
 
 ...
 ```
-The import of ReactJsAlert hook is able to show alerts:
+This import of ReactJsAlert hook is able to show alerts. 
 And that's it!
 
 ## Available props
@@ -45,7 +43,7 @@ And that's it!
 type: string   ( success, warning, error, info )
 title: string  ( title you want to display )
 status: binary  ( true or false )
-Close={() => this.setState({ status: false })}   ( same as here )
+Close: callBackMethod()  ( structure: [ Close={() => this.setState({ status: false })} ])
 color: string  ( optional: hex code [i.e. #f4f4f4] you want to use )
 quote: string  ( optional: description you want to display )
 
@@ -69,7 +67,7 @@ So make sure that you have those installed too!
 
 ## Example usage
 
-An example of showing alerts simultaneously positions:
+An example of showing alerts simultaneously:
 
 ```
 
@@ -104,7 +102,7 @@ export default class App extends Component {
 
 ```
 
-**This component is built by Sourav Dutta as a package to npm.**
+**This component is built as a package to npm by Sourav Dutta.**
 
 
 ### Happy Coding ♡
