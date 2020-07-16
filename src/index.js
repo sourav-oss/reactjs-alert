@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "./style.scss";
+import "./style.css";
 
 export default class ReactJsAlert extends Component {
   constructor(props) {
