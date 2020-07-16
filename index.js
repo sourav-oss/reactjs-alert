@@ -51,7 +51,7 @@ var ReactJsAlert = /*#__PURE__*/function (_Component) {
 
     _this = _super.call(this, props);
     _this.state = {
-      status: _this.props.status
+      status: _this.props.status ? _this.props.status : false
     };
     return _this;
   }
@@ -131,13 +131,13 @@ var ReactJsAlert = /*#__PURE__*/function (_Component) {
       var bgColor = "#00b0ff";
 
       if (props.type === "error") {
-        bgColor = "#de1327";
+        bgColor = props.color ? props.color : "#de1327";
       } else if (props.type === "success") {
-        bgColor = "#00c12c";
+        bgColor = props.color ? props.color : "#00c12c";
       } else if (props.type === "warning") {
-        bgColor = "#ff9900";
+        bgColor = props.color ? props.color : "#ff9900";
       } else if (props.type === "info") {
-        bgColor = "#00b0ff";
+        bgColor = props.color ? props.color : "#00b0ff";
       }
 
       return /*#__PURE__*/_react["default"].createElement("div", {
