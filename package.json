@@ -1,6 +1,6 @@
 {
   "name": "reactjs-alert",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple reactjs alerts for different type of alerts like success, warning, error, info. Pass type, visible, text as props in your code and that's all. Happy coding...",
   "main": "index.js",
   "scripts": {
