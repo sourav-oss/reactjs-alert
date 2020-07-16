@@ -1,9 +1,12 @@
-# reactjs-alert npm
+# reactjs-alert
 
 A simple react alert component for your website.
 To get started, try installing the reactjs-alert: 
 
 - `npm install --save reactjs-alert`
+
+## How to use
+![alt demo](./demo.png)
 
 ## How to use
 
