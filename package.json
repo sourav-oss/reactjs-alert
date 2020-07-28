@@ -12,11 +12,13 @@
     "url": "https://github.com/sourav-oss/reactjs-alert"
   },
   "keywords": [
+    "reactjs-alert",
     "reactjs",
     "alert",
     "React",
     "NPM",
-    "Github"
+    "Github",
+    "Component"
   ],
   "author": "Sourav Dutta",
   "license": "MIT",

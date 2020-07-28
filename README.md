@@ -1,6 +1,6 @@
 # reactjs-alert
 
-A simple react alert component for your website.
+A simple reactjs alert component for your website.
 To get started, try installing the reactjs-alert: 
 
 - `npm install --save reactjs-alert`
@@ -10,7 +10,7 @@ To get started, try installing the reactjs-alert:
 
 ## How to use
 
-A simple React component that will pop up an alert and hide automatically after a while. You can customize it with different props type in your code.
+A simple Reactjs component that will pop up an alert and hide automatically after a while. You can customize it with different props type in your code.
 
 To add this npm to your project run:
 
@@ -104,6 +104,18 @@ export default class App extends Component {
 }
 
 ```
+
+
+## Beta version ?v=Beta
+
+This package allows a beta version which includes the following:
+
+- `add props for custom alert icons`
+- `use of props to control alert time`
+- `add props for custom position of the alert`
+- `props for alert customization with custom className`
+
+So make sure to follow me on github for latest update! Thanks...
 
 **This component is built as a package to npm by Sourav Dutta.**
 

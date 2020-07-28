@@ -5,19 +5,19 @@
   display: none;
   width: 100%;
   height: 100%;
-  overflow: hidden;
+  /* overflow: hidden; */
   outline: 0;
   z-index: 99999999 !important;
-  transition: opacity 0.25s ease-in-out;
+  transition: display 0.4s ease-in-out;
 }
 .myAlert.show {
   opacity: 1;
   display: block;
-  transition: opacity 0.25s ease-in-out;
+  transition: display 0.4s ease-in-out;
 }
 .myAlertModal {
   max-width: 500px;
-  margin: 1.75rem auto;
+  margin: 4.75rem auto;
 }
 .myAlertModal .alert-modal-content {
   background: transparent;

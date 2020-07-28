@@ -77,7 +77,7 @@ var ReactJsAlert = /*#__PURE__*/function (_Component) {
                       });
 
                       _this2.props.Close(false);
-                    }, 3000);
+                    }, 4000);
                   }
                 }
 
