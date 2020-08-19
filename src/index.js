@@ -102,7 +102,7 @@ export default class ReactJsAlert extends Component {
                     onClick={() => this.closeModal()}
                     style={{ backgroundColor: bgColor }}
                   >
-                    Okay
+                    {props.button ? props.button : "Okay"}
                   </button>
                 </div>
               </div>

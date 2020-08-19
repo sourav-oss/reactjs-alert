@@ -198,7 +198,7 @@ var ReactJsAlert = /*#__PURE__*/function (_Component) {
         style: {
           backgroundColor: bgColor
         }
-      }, "Okay")))))));
+      }, props.button ? props.button : "Okay")))))));
     }
   }]);
 
