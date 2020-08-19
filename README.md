@@ -33,7 +33,7 @@ Finally, add the `ReactJsAlert` component within render method:
     status={true}   // true or false
     button="Try Again"
     color="#1d36ad"
-    quote="You can change the color, quote, title of you own
+    quote="You can change the color, quote, title of you own"
     Close={() => this.setState({ status: false })}   // callback method for hide
 />
 
@@ -47,11 +47,11 @@ And that's it!
 ```
 
 type: string   ( success, warning, error, info )
-title: string  ( title you want to display )
+title: string  ( alert title )
 status: binary  ( true or false )
 Close: callBackMethod()  ( structure: [ Close={() => this.setState({ status: false })} ])
 color: string  ( optional: hex code [i.e. #f4f4f4] you want to use )
-quote: string  ( optional: description you want to display )
+quote: string  ( optional: a text you want to display )
 button: string ( a button name you want to use i.e. Try Again )
 
 ```
