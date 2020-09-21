@@ -1,8 +1,8 @@
 # reactjs-alert
 
-![npm](https://img.shields.io/npm/dt/reactjs-alert?style=flat-square)   ![NPM](https://img.shields.io/npm/l/reactjs-alert?style=flat-square)   ![npm](https://img.shields.io/npm/v/reactjs-alert?style=flat-square)   ![npm collaborators](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2F_DuttaSourav)   ![Dependents (via libraries.io)](https://img.shields.io/github/stars/sourav-oss/reactjs-alert)
+![npm](https://img.shields.io/npm/dt/reactjs-alert?style=flat-square)   ![NPM](https://img.shields.io/npm/l/reactjs-alert?style=flat-square)   ![npm](https://img.shields.io/npm/v/reactjs-alert?style=flat-square)   ![Dependents (via libraries.io)](https://img.shields.io/github/stars/sourav-oss/reactjs-alert)   ![npm collaborators](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2F_DuttaSourav)   
 
-A simple reactjs alert component for your website.
+A simple reactjs alert component.
 To get started, try installing the reactjs-alert: 
 
 - `npm install --save reactjs-alert`
@@ -12,7 +12,7 @@ To get started, try installing the reactjs-alert:
 
 ## How to use
 
-A simple Reactjs component that will pop up an alert and hide automatically after a while. You can customize it with different props type in your code.
+A simple Reactjs component that will pop up an alert of success, warning, error and information. You can customize it with different props type in your component.
 
 To add this npm to your project run:
 
