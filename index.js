@@ -187,7 +187,7 @@ var ReactJsAlert = /*#__PURE__*/function (_Component) {
         className: "alert-dialogue"
       }, /*#__PURE__*/_react["default"].createElement("h3", {
         className: "alert-text"
-      }, props.title ? props.title : "Something went wrong. Please try again!"), /*#__PURE__*/_react["default"].createElement("p", {
+      }, props.title ? props.title : "Something went wrong, please try again later!"), /*#__PURE__*/_react["default"].createElement("p", {
         className: "alert-quote mb-0"
       }, props.quote ? props.quote : "I hated being careful, too - or wanted to, at least."), /*#__PURE__*/_react["default"].createElement("button", {
         type: "button",

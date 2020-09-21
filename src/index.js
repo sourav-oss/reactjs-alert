@@ -88,7 +88,7 @@ export default class ReactJsAlert extends Component {
                   <h3 className="alert-text">
                     {props.title
                       ? props.title
-                      : "Something went wrong. Please try again!"}
+                      : "Something went wrong, please try again later!"}
                   </h3>
                   <p className="alert-quote mb-0">
                     {props.quote
