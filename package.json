@@ -1,7 +1,7 @@
 {
   "name": "reactjs-alert",
-  "version": "1.2.5",
-  "description": "Simple reactjs alerts for different type of alerts like success, warning, error, info. Pass type, visible, text as props in your code and that's all. Happy coding...",
+  "version": "1.2.6",
+  "description": "Simple reactjs-alert for different type of alerts like success, warning, error, info. Use type, status, text as props in your code and that's all. Happy coding...",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -13,12 +13,15 @@
   },
   "keywords": [
     "reactjs-alert",
+    "reactjs alert",
+    "react js alert",
     "reactjs",
     "alert",
     "React",
     "NPM",
     "Github",
-    "Component"
+    "Component",
+    "react-alert"
   ],
   "author": "Sourav Dutta",
   "license": "MIT",

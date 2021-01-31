@@ -30,12 +30,9 @@ Finally, add the `ReactJsAlert` component within render method:
 ```
 
 <ReactJsAlert
+    status={true}   // true or false
     type="success"   // success, warning, error, info
     title="Hey! this is an alert."   // title you want to display
-    status={true}   // true or false
-    button="Try Again"
-    color="#1d36ad"
-    quote="You can change the color, quote, title of you own"
     Close={() => this.setState({ status: false })}   // callback method for hide
 />
 
@@ -48,15 +45,24 @@ And that's it!
 
 ```
 
-type: string   ( success, warning, error, info )
-title: string  ( alert title )
-status: binary  ( true or false )
-Close: callBackMethod()  ( structure: [ Close={() => this.setState({ status: false })} ])
-color: string  ( optional: hex code [i.e. #f4f4f4] you want to use )
-quote: string  ( optional: a text you want to display )
-button: string ( a button name you want to use i.e. Try Again )
+status: true or false *
+title: string  ( an alert title ) *
+type: string   ( value : success, warning, error, info ) *
+color: string  ( OPTIONAL: hex code [i.e. #f4f4f4] )
+quotes: true or false ( OPTIONAL )
+quote: string  ( OPTIONAL: a message on alert )
+button: string ( text you want to use i.e. Try Again )
 
 ```
+
+**Use a call back method (arrow function) to close it manually**
+
+```
+
+Close: callBackMethod()  ( i.e. [ Close={() => this.setState({ status: false })} ])
+
+```
+
 
 ## Peer dependencies
 
@@ -90,7 +96,6 @@ export default class App extends Component {
       type: "error",
       status: true,
       title: "Hey! this is an error.",
-      quote: "Something went wrong. Please try again!",
     };
   }
   
@@ -98,9 +103,9 @@ export default class App extends Component {
     return (
       <div className="App">
         <ReactJsAlert
-          type={this.state.type} // success, warning, error, info
-          title={this.state.title} // title you want to display
           status={this.state.status} // true or false
+          type={this.state.type} // success, warning, error, info
+          title={this.state.title}
           Close={() => this.setState({ status: false })}
         />
       </div>
@@ -110,19 +115,10 @@ export default class App extends Component {
 
 ```
 
-
-## Beta version ?v=Beta
-
-This package allows a beta version which includes the following:
-
-- `add props for custom alert icons`
-- `use of props to control alert time`
-- `add props for custom position of the alert`
-- `props for alert customization with custom className`
-
-So make sure to follow me on github for latest update! Thanks...
+Make sure to follow me on github for latest update! Thanks...
 
 **This component is built as a package to npm by Sourav Dutta.**
 
 
 ### Happy Coding ♡
+
