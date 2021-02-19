@@ -6,7 +6,7 @@ export default class ReactJsAlert extends Component {
     super(props);
     this.state = {
       status: this.props.status ? this.props.status : false,
-      quotes: this.props.quotes ? this.props.quotes : false,
+      // quotes: this.props.quotes ? this.props.quotes : false,
     };
   }
 
@@ -91,7 +91,7 @@ export default class ReactJsAlert extends Component {
                       ? props.title
                       : "Something went wrong, please try again later!"}
                   </h3>
-                  {quotes ? (
+                  {props.quotes ? (
                     <p className="alert-quote mb-0">
                       {props.quote
                         ? props.quote

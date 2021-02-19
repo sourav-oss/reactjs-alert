@@ -51,8 +51,8 @@ var ReactJsAlert = /*#__PURE__*/function (_Component) {
 
     _this = _super.call(this, props);
     _this.state = {
-      status: _this.props.status ? _this.props.status : false,
-      quotes: _this.props.quotes ? _this.props.quotes : false
+      status: _this.props.status ? _this.props.status : false // quotes: this.props.quotes ? this.props.quotes : false,
+
     };
     return _this;
   }
@@ -188,7 +188,7 @@ var ReactJsAlert = /*#__PURE__*/function (_Component) {
         className: "alert-dialogue"
       }, /*#__PURE__*/_react["default"].createElement("h3", {
         className: "alert-text"
-      }, props.title ? props.title : "Something went wrong, please try again later!"), quotes ? /*#__PURE__*/_react["default"].createElement("p", {
+      }, props.title ? props.title : "Something went wrong, please try again later!"), props.quotes ? /*#__PURE__*/_react["default"].createElement("p", {
         className: "alert-quote mb-0"
       }, props.quote ? props.quote : "I hated being careful, too - or wanted to, at least.") : null, /*#__PURE__*/_react["default"].createElement("button", {
         type: "button",
