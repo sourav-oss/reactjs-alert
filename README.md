@@ -10,6 +10,7 @@ To get started, try installing the reactjs-alert:
 ## Working Demo with example code
 
 https://t1ur0h.csb.app/
+[![Edit l2mo430lzq](https://codesandbox.io/static/img/play-codesandbox.svg)](https://t1ur0h.csb.app/)
 
 ## Example screenshot
 
