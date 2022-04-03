@@ -9,15 +9,16 @@ To get started, try installing the reactjs-alert:
 
 ## Working Demo with example code
 
-`https://t1ur0h.csb.app/`
+https://t1ur0h.csb.app/
+<br />
+<br />
 
-`<iframe src="https://codesandbox.io/embed/awesome-dirac-t1ur0h?fontsize=14&hidenavigation=1&module=%2Fsrc%2FApp.js&theme=dark&view=preview"
-style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
-title="awesome-dirac-t1ur0h"
-allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
-sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
-
-> </iframe>`
+<iframe src="https://codesandbox.io/embed/awesome-dirac-t1ur0h?fontsize=14&hidenavigation=1&module=%2Fsrc%2FApp.js&theme=dark&view=preview"
+     style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
+     title="awesome-dirac-t1ur0h"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+     sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+   ></iframe>
 
 ## Example screenshot
 
