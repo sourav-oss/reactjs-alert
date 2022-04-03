@@ -9,8 +9,9 @@ To get started, try installing the reactjs-alert:
 
 ## Working Demo with example code
 
-https://t1ur0h.csb.app/
-[![Edit l2mo430lzq](https://codesandbox.io/static/img/play-codesandbox.svg)](https://t1ur0h.csb.app/)
+<!-- https://t1ur0h.csb.app/ -->
+
+[![View l2mo430lzq](https://codesandbox.io/static/img/play-codesandbox.svg)](https://t1ur0h.csb.app/)
 
 ## Example screenshot
 
@@ -151,7 +152,6 @@ export default class App extends Component {
 ```js
 import React, { useState } from "react";
 import ReactJsAlert from "reactjs-alert";
-import "./styles.css";
 
 export default function App() {
   const [status, setStatus] = useState(false);
@@ -188,3 +188,5 @@ Make sure to follow me on github for latest update! Thanks...
 **This component is built as a package to npm by Sourav Dutta.**
 
 ### Happy Coding ♡
+
+<a href="https://www.buymeacoffee.com/duttasourav" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
