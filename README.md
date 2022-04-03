@@ -77,7 +77,7 @@ color: string  ( OPTIONAL: hex code [i.e. #f4f4f4] )
 quotes: true or false ( OPTIONAL )
 quote: string  ( OPTIONAL: a message on alert )
 button: string ( text you want to use i.e. Try Again )
-
+autoCloseIn : number (a time after that pop up will be closed)
 ```
 
 **Use a call back method (arrow function) to close it manually**

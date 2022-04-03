@@ -16,12 +16,15 @@ export default class ReactJsAlert extends Component {
         this.setState({
           status: true,
         });
-        setTimeout(() => {
-          this.setState({
-            status: false,
-          });
-          this.props.Close(false);
-        }, 4000);
+        setTimeout(
+          () => {
+            this.setState({
+              status: false,
+            });
+            this.props.Close(false);
+          },
+          prevProps.autoCloseIn ? prevProps.autoCloseIn : 4000
+        );
       }
     }
   }
@@ -95,7 +98,7 @@ export default class ReactJsAlert extends Component {
                     <p className="alert-quote mb-0">
                       {props.quote
                         ? props.quote
-                        : "I hated being careful, too - or wanted to, at least."}
+                        : "This is a dummy design that shows an example of reactjs-alert"}
                     </p>
                   ) : null}
 
