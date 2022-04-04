@@ -63,11 +63,11 @@ export default class ReactJsAlert extends Component {
     }
     return (
       <div
-        className={this.state.status ? "myAlert show" : "myAlert"}
-        aria-labelledby="myAlertTitle"
+        className={this.state.status ? "__myAlert show" : "__myAlert"}
+        aria-labelledby="__myAlertTitle"
         aria-hidden="true"
       >
-        <div className="myAlertModal" role="document">
+        <div className="__myAlertModal" role="document">
           <div className="alert-modal-content">
             <div id="alertWrapper" className="alert-wrapper">
               <button

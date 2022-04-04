@@ -340,14 +340,14 @@ var ReactJsAlert = /*#__PURE__*/ (function (_Component) {
         return /*#__PURE__*/ _react["default"].createElement(
           "div",
           {
-            className: this.state.status ? "myAlert show" : "myAlert",
-            "aria-labelledby": "myAlertTitle",
+            className: this.state.status ? "_myAlert show" : "_myAlert",
+            "aria-labelledby": "_myAlertTitle",
             "aria-hidden": "true",
           },
           /*#__PURE__*/ _react["default"].createElement(
             "div",
             {
-              className: "myAlertModal",
+              className: "_myAlertModal",
               role: "document",
             },
             /*#__PURE__*/ _react["default"].createElement(
