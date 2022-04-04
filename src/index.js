@@ -23,7 +23,7 @@ export default class ReactJsAlert extends Component {
             });
             this.props.Close(false);
           },
-          prevProps.autoCloseIn ? prevProps.autoCloseIn : 4000
+          this.props.autoCloseIn ? this.props.autoCloseIn : 4000
         );
       }
     }

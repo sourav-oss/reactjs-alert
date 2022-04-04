@@ -242,7 +242,9 @@ var ReactJsAlert = /*#__PURE__*/ (function (_Component) {
 
                               _this2.props.Close(false);
                             },
-                            prevProps.autoCloseIn ? prevProps.autoCloseIn : 4000
+                            this.props.autoCloseIn
+                              ? this.props.autoCloseIn
+                              : 4000
                           );
                         }
                       }

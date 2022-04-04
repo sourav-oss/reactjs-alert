@@ -12,7 +12,7 @@ For managing this package I need your support, thank you... <br /><br />
 A simple reactjs alert component.
 To get started, try installing the reactjs-alert:
 
-- `npm install --save reactjs-alert`
+- `npm install --save reactjs-alert` or
 - `npm i reactjs-alert`
 
 ## Working Demo with example code
@@ -33,7 +33,7 @@ An unique idea of displaying alerts in pop up with 'reactjs-alert' for different
 
 To add this npm to your project run:
 
-- `npm install --save reactjs-alert`
+- `npm install --save reactjs-alert` or
 - `npm i reactjs-alert`
 
 Import it to your specific project file:
@@ -43,7 +43,7 @@ import ReactJsAlert from "reactjs-alert"
 ...
 ```
 
-Finally, add the `ReactJsAlert` component within render method:
+Finally, add the `ReactJsAlert` component in your code:
 
 ### Class Component
 
@@ -87,11 +87,11 @@ And that's it!
 status: true or false *
 title: string  ( an alert title ) *
 type: string   ( value : success, warning, error, info ) *
-color: string  ( OPTIONAL: hex code [i.e. #f4f4f4] )
-quotes: true or false ( OPTIONAL )
-quote: string  ( OPTIONAL: a message on alert )
-button: string ( text you want to use i.e. Try Again )
-autoCloseIn : number (a time after that pop up will be closed)
+color: string  ( hex code [i.e. #f4f4f4] ) (OPTIONAL)
+quotes: true or false ( required if you want a quote )
+quote: string  ( a brief message on alert ) (OPTIONAL)
+button: string ( text you want to display in button i.e. 'Try Again' )
+autoCloseIn : number (a time after that pop up will be closed i.e. 3000 )
 ```
 
 **Use a call back method (arrow function) to close it manually**
@@ -198,5 +198,7 @@ Make sure to follow me on github for latest update! Thanks...
 **This component is built as a package to npm by Sourav Dutta.**
 
 ### Happy Coding ♡
+
+<br>
 
 <a href="https://www.buymeacoffee.com/duttasourav" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
