@@ -1,6 +1,6 @@
 {
   "name": "reactjs-alert",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "An unique idea of displaying alerts in pop up with 'reactjs-alert' for different types (i.e. success, warning, error, info). Use type, status, text as props in your code and that's all. You can configure the reactjs-alert with it's avilable props, see documentation for a detailed knowledge. Happy coding...",
   "main": "index.js",
   "scripts": {
