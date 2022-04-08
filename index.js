@@ -340,14 +340,14 @@ var ReactJsAlert = /*#__PURE__*/ (function (_Component) {
         return /*#__PURE__*/ _react["default"].createElement(
           "div",
           {
-            className: this.state.status ? "_myAlert show" : "_myAlert",
-            "aria-labelledby": "_myAlertTitle",
+            className: this.state.status ? "__myAlert show" : "__myAlert",
+            "aria-labelledby": "__myAlertTitle",
             "aria-hidden": "true",
           },
           /*#__PURE__*/ _react["default"].createElement(
             "div",
             {
-              className: "_myAlertModal",
+              className: "__myAlertModal",
               role: "document",
             },
             /*#__PURE__*/ _react["default"].createElement(
@@ -410,7 +410,7 @@ var ReactJsAlert = /*#__PURE__*/ (function (_Component) {
                           },
                           props.quote
                             ? props.quote
-                            : "I hated being careful, too - or wanted to, at least."
+                            : "This is a dummy alert to show an example of reactjs-alert"
                         )
                       : null,
                     /*#__PURE__*/ _react["default"].createElement(

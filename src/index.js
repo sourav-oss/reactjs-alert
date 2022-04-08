@@ -98,7 +98,7 @@ export default class ReactJsAlert extends Component {
                     <p className="alert-quote mb-0">
                       {props.quote
                         ? props.quote
-                        : "This is a dummy design that shows an example of reactjs-alert"}
+                        : "This is a dummy alert to show an example of reactjs-alert"}
                     </p>
                   ) : null}
 
