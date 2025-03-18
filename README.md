@@ -25,14 +25,21 @@ Or with shorthand:
 npm i reactjs-alert
 ```
 
+
+### 📫 Available Alert Types
+
+| **Alert Type** | **Description**                           | **Icon Color** | **Usage Syantax** |
+|:----------------|:-------------------------------------------|:----------------|:---------------|
+| **Success**      | Indicates a successful action or completion. | `#00c12c`       | **`success`** |
+| **Warning**      | Cautions the user about a potential issue. | `#ff9900`        | **`warning`** |
+| **Error**        | Indicates a serious issue that requires attention. | `#de1327`      | **`error`** |
+| **Critical**     | Highlights a severe issue that demands immediate action e.g. system outages, security concerns, or urgent messages. | `#a71d31`      | **`critical`** |
+| **Confirmation** | Provides feedback when a user confirms an action. | `#2a8a2e`       | **`confirm`** |
+| **Notice**       | Used for maintenance updates or informational notices. | `#51bfd0`      | **`notice`** |
+| **Information**  | Displays general information or guidance. | `#00b0ff`        | **`info`** |
+
 ---
 
-## 📸 Example Screenshot
-
-![Example Screenshot](./demo.png)
-
-
----
 
 ## ⚙️ Available Props
 
@@ -40,13 +47,19 @@ npm i reactjs-alert
 |-----------------|-----------|------------------------------------------------|:---------:|
 | `status`         | Boolean   | Controls alert visibility (`true` / `false`)    | **Yes**   |
 | `title`          | String    | Main message text displayed as title                             | **Yes**   |
-| `type`           | String    | Alert type: choose one of the option from here [`'success'`, `'warning'`, `'error'`, `'info'`] | **Yes**   |
+| `type`           | String    | Alert type: choose one of the option from **`Available Alert Types`** | **Yes**   |
 | `color`          | String    | Custom background color (`Hex code e.g. #de1327`)              | No         |
 | `isQuotes`         | Boolean   | Displays additional quote text (`true` / `false`)                 | No         |
 | `quote`          | String    | The additional quote message if `isQuotes = true`                   | No         |
 | `button`         | String    | Custom button text (`e.g. "Try Again", "Submit"`)         | No         |
 | `autoCloseIn`    | Number    | Automatically close the alert after X milliseconds            | No         |
 | `Close` (method) | Function  | Callback method to manually close the alert      | **Yes**   |
+
+---
+
+## 📸 Example Screenshot
+
+![Example Screenshot](./reactjs-alert-sample.png)
 
 ---
 

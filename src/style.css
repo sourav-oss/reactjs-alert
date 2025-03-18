@@ -122,6 +122,7 @@
   cursor: pointer;
   border-radius: 8px;
   margin-top: 1rem;
+  border: none;
   background-color: #1d36ad;
   transition: all 0.3s ease-in-out;
 }
