@@ -51,12 +51,6 @@ export default class ReactJsAlert extends Component {
         <div className="__myAlertModal" role="document">
           <div className="alert-modal-content">
             <div id="alertWrapper" className="alert-wrapper">
-              <button
-                className="alert-close-icon"
-                onClick={this.closeModal}
-              >
-                ×
-              </button>
               <div className="d-flex">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -68,25 +62,24 @@ export default class ReactJsAlert extends Component {
                 >
                   <path d={svgPath} />
                 </svg>
-
-                <div className="alert-dialogue">
-                  {title && <h3 className="alert-text">{title || "Something went wrong!"}</h3>}
+                {title && <h3 className="__alert-text">{title || "Something went wrong!"}</h3>}
+                </div>
+                <div className="__alert-dialogue">
                   {isQuotes && (
-                    <p className="alert-quote mb-0">
+                    <p className="__alert-quote">
                       {quote || ""}
                     </p>
                   )}
 
                   <button
                     type="button"
-                    className="close-alert-btn"
+                    className="__close-alert-btn"
                     onClick={this.closeModal}
                     style={{ backgroundColor: bgColor }}
                   >
                     {button || "Okay"}
                   </button>
                 </div>
-              </div>
             </div>
           </div>
         </div>
