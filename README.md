@@ -2,7 +2,7 @@
 
 ![npm](https://img.shields.io/npm/dt/reactjs-alert?style=flat-square) ![NPM](https://img.shields.io/npm/l/reactjs-alert?style=flat-square) ![npm](https://img.shields.io/npm/v/reactjs-alert?style=flat-square) ![Dependents (via libraries.io)](https://img.shields.io/github/stars/sourav-oss/reactjs-alert) ![npm collaborators](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2F_DuttaSourav)
 
-**Simple, flexible, lightweight, customizable React.js alert component for better user notifications. <br>
+**Simple, lightweight, customizable React.js alert component for better user notifications. <br>
 <i>An advance and unique alert for React.js applications - `reactjs-alert`. </i>**
 
 <blockquote>
