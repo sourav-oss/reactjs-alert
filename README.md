@@ -49,7 +49,7 @@ npm i reactjs-alert
   type="error"
   title="Oops! Something went wrong."
   color="#ff4d4f"
-  quotes={true}
+  isQuotes={true}
   quote="Please try again later."
   Close={() => setStatus(false)}
 />
@@ -229,7 +229,7 @@ export default function App() {
         status={status}
         type={type}
         title={title}
-        quotes={true}
+        isQuotes={true}
         quote="This is an example of a ReactJs alert."
         Close={() => setStatus(false)}
       />
