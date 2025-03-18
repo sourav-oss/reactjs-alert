@@ -38,7 +38,7 @@ export default class ReactJsAlert extends Component {
   };
 
   render() {
-    const { type = "info", color, title, quotes, quote, button } = this.props;
+    const { type = "info", color, title, isQuotes, quote, button } = this.props;
     const bgColor = color || DEFAULT_COLORS[type];
     const svgPath = SVG_PATHS[type];
 
@@ -71,7 +71,7 @@ export default class ReactJsAlert extends Component {
 
                 <div className="alert-dialogue">
                   {title && <h3 className="alert-text">{title || "Something went wrong!"}</h3>}
-                  {quotes && (
+                  {isQuotes && (
                     <p className="alert-quote mb-0">
                       {quote || ""}
                     </p>

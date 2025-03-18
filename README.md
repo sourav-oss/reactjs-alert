@@ -1,10 +1,13 @@
-# reactjs-alert
+# reactjs-alert: Lightweight React Alert Component
 
 ![npm](https://img.shields.io/npm/dt/reactjs-alert?style=flat-square) ![NPM](https://img.shields.io/npm/l/reactjs-alert?style=flat-square) ![npm](https://img.shields.io/npm/v/reactjs-alert?style=flat-square) ![Dependents (via libraries.io)](https://img.shields.io/github/stars/sourav-oss/reactjs-alert) ![npm collaborators](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2F_DuttaSourav)
 
-
-**Simple and flexible alert component for React.js applications. <br>
+**Simple, flexible, lightweight, customizable React.js alert component for better user notifications. <br>
 <i>An advance and unique alert for React.js applications - `reactjs-alert`. </i>**
+
+<blockquote>
+reactjs-alert is a simple, lightweight, flexible and customizable React.js alert component that helps developers create customizable alerts with ease. It supports multiple alert types like success, warning, error, and info, and comes with options for custom colors, auto-close, and quotes. Ideal for improving user engagement and enhancing notification systems in React applications. Get started in minutes with npm install reactjs-alert.
+</blockquote>
 
 ---
 
@@ -27,6 +30,39 @@ npm i reactjs-alert
 ## 📸 Example Screenshot
 
 ![Example Screenshot](./demo.png)
+
+
+---
+
+## ⚙️ Available Props
+
+| Prop Name       | Type      | Description                                    | Required |
+|-----------------|-----------|------------------------------------------------|:---------:|
+| `status`         | Boolean   | Controls alert visibility (`true` / `false`)    | **Yes**   |
+| `title`          | String    | Main message text displayed as title                             | **Yes**   |
+| `type`           | String    | Alert type: choose one of the option from here [`'success'`, `'warning'`, `'error'`, `'info'`] | **Yes**   |
+| `color`          | String    | Custom background color (`Hex code e.g. #de1327`)              | No         |
+| `isQuotes`         | Boolean   | Displays additional quote text (`true` / `false`)                 | No         |
+| `quote`          | String    | The additional quote message if `isQuotes = true`                   | No         |
+| `button`         | String    | Custom button text (`e.g. "Try Again", "Submit"`)         | No         |
+| `autoCloseIn`    | Number    | Automatically close the alert after X milliseconds            | No         |
+| `Close` (method) | Function  | Callback method to manually close the alert      | **Yes**   |
+
+---
+
+## 🧩 Example Usage with Props
+
+```jsx
+<ReactJsAlert
+  status={true}
+  type="error"
+  title="Oops! Something went wrong."
+  color="#ff4d4f"
+  quotes={true}
+  quote="Please try again later."
+  Close={() => setStatus(false)}
+/>
+```
 
 ---
 
@@ -101,38 +137,6 @@ export default function App() {
     </div>
   );
 }
-```
-
----
-
-## ⚙️ Available Props
-
-| Prop Name       | Type      | Description                                    | Required |
-|-----------------|-----------|------------------------------------------------|:---------:|
-| `status`         | Boolean   | Controls alert visibility (`true` / `false`)    | **Yes**   |
-| `title`          | String    | Main message text displayed as title                             | **Yes**   |
-| `type`           | String    | Alert type: choose one of the option from here [`'success'`, `'warning'`, `'error'`, `'info'`] | **Yes**   |
-| `color`          | String    | Custom background color (`Hex code e.g. #de1327`)              | No         |
-| `quotes`         | Boolean   | Displays additional quote text (`true` / `false`)                 | No         |
-| `quote`          | String    | The additional quote message if `quotes = true`                   | No         |
-| `button`         | String    | Custom button text (`e.g. "Try Again", "Submit"`)         | No         |
-| `autoCloseIn`    | Number    | Automatically close the alert after X milliseconds            | No         |
-| `Close` (method) | Function  | Callback method to manually close the alert      | **Yes**   |
-
----
-
-## 🧩 Example Usage with Props
-
-```jsx
-<ReactJsAlert
-  status={true}
-  type="error"
-  title="Oops! Something went wrong."
-  color="#ff4d4f"
-  quotes={true}
-  quote="Please try again later."
-  Close={() => setStatus(false)}
-/>
 ```
 
 ---
@@ -246,4 +250,3 @@ You can also follow me on [Twitter](https://twitter.com/_DuttaSourav).
 **Built with ❤️ by Sourav Dutta 😊**
 
 ### Happy Coding! 🚀
-

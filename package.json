@@ -1,7 +1,8 @@
 {
   "name": "reactjs-alert",
-  "version": "2.3.0",
-  "description": "An unique idea of displaying alerts in pop up with 'reactjs-alert' for different types (i.e. success, warning, error, info). Use type, status, text as props in your code and that's all. You can configure the reactjs-alert with it's avilable props, see documentation for a detailed knowledge. Happy coding...",
+  "version": "2.3.1",
+  "title": "reactjs-alert: Simple, Flexible, Customizable React.js Alert Component for Better User Notifications",
+  "description": "reactjs-alert is a lightweight and customizable alert component for React.js applications. Easily create success, warning, error, or info alerts with a clean UI, custom colors, and auto-close functionality. Ideal for enhancing user notifications and improving engagement.",
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -27,7 +28,15 @@
     "react",
     "alert",
     "notification",
-    "component"
+    "component",
+    "react alert",
+    "alert component",
+    "success alert",
+    "error alert",
+    "warning alert",
+    "info alert",
+    "popup alert",
+    "react notifications"
   ],
   "author": "Sourav Dutta",
   "license": "MIT",
