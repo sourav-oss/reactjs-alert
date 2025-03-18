@@ -1,4 +1,4 @@
-# reactjs-alert: Lightweight React Alert Component
+# reactjs-alert: Lightweight Customizable React.js Alert Component
 
 ![npm](https://img.shields.io/npm/dt/reactjs-alert?style=flat-square) ![NPM](https://img.shields.io/npm/l/reactjs-alert?style=flat-square) ![npm](https://img.shields.io/npm/v/reactjs-alert?style=flat-square) ![Dependents (via libraries.io)](https://img.shields.io/github/stars/sourav-oss/reactjs-alert) ![npm collaborators](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2F_DuttaSourav)
 
@@ -25,10 +25,11 @@ Or with shorthand:
 npm i reactjs-alert
 ```
 
+---
 
 ### 📫 Available Alert Types
 
-| **Alert Type** | **Description**                           | **Icon Color** | **Usage Syantax** |
+| **Alert Type** | **Description**                           | **Color** | **Usage Syntax** |
 |:----------------|:-------------------------------------------|:----------------|:---------------|
 | **Success**      | Indicates a successful action or completion. | `#00c12c`       | **`success`** |
 | **Warning**      | Cautions the user about a potential issue. | `#ff9900`        | **`warning`** |
@@ -40,6 +41,21 @@ npm i reactjs-alert
 
 ---
 
+## 🧩 Example Usage with Props
+
+```jsx
+<ReactJsAlert
+  status={true}
+  type="error"
+  title="Oops! Something went wrong."
+  color="#ff4d4f"
+  quotes={true}
+  quote="Please try again later."
+  Close={() => setStatus(false)}
+/>
+```
+
+---
 
 ## ⚙️ Available Props
 
@@ -60,22 +76,6 @@ npm i reactjs-alert
 ## 📸 Example Screenshot
 
 ![Example Screenshot](./reactjs-alert-sample.png)
-
----
-
-## 🧩 Example Usage with Props
-
-```jsx
-<ReactJsAlert
-  status={true}
-  type="error"
-  title="Oops! Something went wrong."
-  color="#ff4d4f"
-  quotes={true}
-  quote="Please try again later."
-  Close={() => setStatus(false)}
-/>
-```
 
 ---
 
